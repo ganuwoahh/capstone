@@ -1,0 +1,35 @@
+~~~ [1] D. Haputhanthri and A. Wijayasiri, "Short-Term Traffic Forecasting using LSTM-based Deep Learning Models," 2021 Moratuwa Engineering Research Conference (MERCon), Moratuwa, Sri Lanka, 2021, pp. 602-607
+
+~~~ [2] Xiaojian Hu, Tong Liu, Xiatong Hao, and Chenxi Lin. 2022. Attention-based Conv-LSTM and Bi-LSTM networks for large-scale traffic speed prediction. The Journal of Supercomputing (2022), 1–24.
+
+~~~ [3] OpenGenus IQ. 2020. Disadvantages of CNN models opengenus. https://iq.opengenus.org/disadvantages-of-cnn/
+
+~~~ [4] Nadarajan, J., & Sivanraj, R. (2022). Attention-Based Multiscale Spatiotemporal Network for Traffic Forecast with Fusion of External Factors. ISPRS International Journal of Geo-Information, 11(12), 619.
+
+~~~ [5] L. Wei et al., "Dual Graph for Traffic Forecasting," in IEEE Access, doi: 10.1109/ACCESS.2019.2958380
+
+~~~ [6] R. B. Benarmas and K. B. Bey, "Improving Road Traffic Prediction By using Dependencies Study: Cross-Correlation based Approach," 2021 International Conference on Networking and Advanced Systems (ICNAS), Annaba, Algeria, 2021, pp. 1-6
+
+~~~ [7] Chen, Weiqi & Chen, Ling & Xie, Yu & Cao, Wei & Gao, Yusong & Feng, Xiaojie. (2019). Multi-Range Attentive Bicomponent Graph Convolutional Network for Traffic Forecasting.
+
+~~~ [8] The Economic Times: An average Indian spent 59 minutes to commute one way to work in 2023. https://economictimes.indiatimes.com/industry/transportation/roadways/an-average-indian-spent-59-minutes-to-commute-one-way-to-work-in-2023-report/articleshow/107240005.cms?from=mdr
+
+~~~ [9] Y. Yao et al., "Analyzing the Effects of Rainfall on Urban Traffic-Congestion Bottlenecks," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 504-512, 2020, doi: 10.1109/JSTARS.2020.2966591.
+
+~~~ [10] Macioszek, E., & Kurek, A. (2021). Road traffic distribution on public holidays and workdays on selected road transport network elements. Transport Problems, 16(1).
+
+~~~ [11] Tsuyoshi Idé, Takayuki Katsuki, Tetsuro Morimura, and Robert Morris. 2016. City-wide traffic flow estimation from a limited number of low-quality cameras. IEEE Transactions on Intelligent Transportation Systems 18, 4 (2016), 950–959.
+
+~~~ [12] Xiaoyang Wang, Yao Ma, Yiqi Wang, Wei Jin, Xin Wang, Jiliang Tang, Caiyan Jia, and Jian Yu. 2020. Traffic Flow Prediction via Spatial Temporal Graph Neural Network. In Proceedings of The Web Conference 2020 (WWW '20). Association for Computing Machinery, New York, NY, USA, 1082–1092.
+
+~~~ [13] Jihua Ye, Shengjun Xue, Aiwen Jiang, Attention-based spatio-temporal graph convolutional network considering external factors for multi-step traffic flow prediction, Digital Communications and Networks, Volume 8, Issue 3, 2022, Pages 343-350, ISSN 2352-8648,
+
+~~~ [14] Rahman, Moshiur & Nower, Naushin. (2023). Attention based Deep Hybrid Networks for Traffic Flow Prediction using Google Maps Data. 
+
+~~~ [15] Cui, Z.; Zhang, J.; Noh, G.; Park, H.J. MFDGCN: Multi-Stage Spatio-Temporal Fusion Diffusion Graph Convolutional Network for Traffic Prediction. Appl. Sci. 2022, 12, 2688
+
+~~~ [16] Teng, Guoqing & Wu, Han & Wang, Yixing & He, Ao & Long, Yangsheng & Zhao, Meng. (2024). STFFormer-GCN: Spatial–Temporal Fusion Transformer Based Graph Convolutional Network for Traffic Flow Prediction. 10.21203/rs.3.rs-5259013/v1.
+
+~~~ [17] Hamed, M.M., Al-Masaeid, H.R., Said, Z.M.B.: Short-term prediction of traﬃcvolume in urban arterials. Journal of Transportation Engineering 121(3), 249–254(1995)
+
+[18] Williams, B.M., Hoel, L.A.: Modeling and forecasting vehicular traﬃc ﬂow asa seasonal arima process: Theoretical basis and empirical results. Journal oftransportation engineering 129(6), 664–672

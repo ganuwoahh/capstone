@@ -1,0 +1,35 @@
+II. LITERATURE REVIEW
+
+A. Overview of Traffic Forecasting
+
+The issue of traffic and the delays it causes is a persistent and fleeting phenomenon worldwide. It is a fundamental issue of modern times and needs to be addressed.
+Traffic data is extremely complex. It is graph-based data arranged as nodes and edges. Some works like DualGraph [5], Cross-Correlation [6], and Bicomponent GCN [7] involve merging graph data into new datatypes to better predict traffic flow.
+Moreover, there still does not exist a method to collect data at all for most countries, save for a large network of sensors across the road network.
+This problem is further extrapolated when talking about traffic within India. The average Indian spends almost an hour in traffic commuting to work [8]. However, there have been few attempts to make a sensor network to collect traffic data for India.
+
+B. Traditional Methods
+
+Models like HA [17] and ARIMA [18] and their versions are used to predict traffic flow. However, these models don’t provide accurate modelling due to the non-linearity and stochastic nature of traffic flow.
+Models like CNN, RNN and other simple deep learning architectures show large improvements over these parametric and non-parametric models since they require fewer data due to having more layers.
+LSTM has become a popular method for predicting traffic due to low computational time and efficiency [1].
+The problem with LSTM in traffic data is that it is univariate, noisy, and does not consider external factors [2].
+Another problem with traditional methods is the lack of spatial and temporal modelling [3].
+A lot of models involving LSTMs do not consider external factor data like weather or holidays due to its non-linear nature. Nadarajan J. et. al. [4] used attention-based encoder-decoders with stacked LSTM layers, each layer modelling a different external factor to predict traffic flow.
+External factors greatly influence traffic. Y. Yao et al. [9] showed us that, in urban areas, traffic increased by over 20% across the week. Macioszek E. et al. [10] demonstrated that holidays greatly influence traffic flow, with up to 30% less traffic on some holidays and more traffic on days around the holidays.
+The problem with LSTM and other RNN-based networks is that they consider traffic sequences from different roads as independent data streams. This means that they cannot model spatial information [12]. Thus, graph neural networks (GNN) models are the standard model used to capture both spatial and temporal parts from traffic data.
+
+C. Introduction to Graph Convolutional Networks
+
+GCNs are a type of GNN that can extend the convolutional operation to achieve convolutions directly on irregular graph structures [13]. 
+Attention is a technique that has been used across different fields in deep learning. It involves capturing all relevant information to the current task. Due to how varied traffic data is, it is perfectly suited for this task.
+Rahman et al. [14] used attention with ConvLSTM to capture dynamic spatio-temporal information in traffic. They showed how we can get great results just by incorporating attention.
+Cui Z. et al. [15] first captured long-term dependencies by using Multi-Stage GCNs, and most recently, Teng Guoqing et al. [16] came out with the Spatio-Temporal Fusion Transformer + GCN, which uses 4 separate modules to accurately predict traffic at an incredibly low 8.51% MAPE on PEMS08.
+However, all of these improvements were tested on datasets that are not directly applicable to anywhere except the places where those datasets came from.
+
+D. Methods to collect traffic data.
+
+One thing all of these methods have in common is the availability of traffic data. One of the common datasets is PEMS (California dataset collected by the Californian government). It is collected by installing thousands of sensors across California highways and averaging speed and other factors to create a graph-based dataset that is used as the standard while evaluating traffic flow prediction models.
+China also keeps traffic datasets for major cities available for research use. However, not many other countries have traffic datasets collected through sensors. This is a problem since traffic is a global issue and is also completely different all across the world. A model trained on PEMS cannot model Indian roads well because the road structure, obstacles, lanes, road width, and population are different and are not something that can be modelled using graph data.
+This is why we need a method to collect data from globally available sources like Google Maps.
+Google Maps API is one way to use this data. However, it is not graph data and is expensive. Rahman et al. [14] collected data from Google Maps without the API using grid data and masking out colours within ranges. However, grid data is worse than graph data at explaining the actual cost of moving from Point A to Point B, which is what we care about when actually using roads to travel.
+This is why we have created a method to capture graph data from Google Maps and incorporate external weather data into it as well.
